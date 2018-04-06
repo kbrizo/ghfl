@@ -40,6 +40,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
 /* CSS Grid Layout */
 
 .container{
@@ -55,13 +58,21 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 .header{
     border-bottom: 1px solid #0E2E66;
-    padding: 20px 0;
+    padding: 50px 0;
     grid-column: 1 / -1;
+
 }
 
-/*Top of the Homepage*/
+li a {
+    text-decoration: none;
+    text-align: right;
+    grid-column: 4 / auto;
+}
 
-.home{
+
+/*Featured Post*/
+
+.featured{
     background-color: #0E2E66;
     grid-column: 1 / -1;
     grid-row: 550px;
