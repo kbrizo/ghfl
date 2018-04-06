@@ -395,7 +395,7 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -530,11 +530,11 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
+	border-color: #A5CB88;
 	border-radius: 3px;
-	background: #e6e6e6;
+	background: #A5CB88;
 	color: rgba(0, 0, 0, 0.8);
-	font-size: 12px;
+	font-size: 24px;
 	font-size: 0.75rem;
 	line-height: 1;
 	padding: .6em 1em .4em;
@@ -544,7 +544,7 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa;
+	border-color: #417505;
 }
 
 button:active, button:focus,
@@ -554,7 +554,7 @@ input[type="reset"]:active,
 input[type="reset"]:focus,
 input[type="submit"]:active,
 input[type="submit"]:focus {
-	border-color: #aaa #bbb #bbb;
+	border-color: #A5CB88;
 }
 
 input[type="text"],
@@ -613,11 +613,11 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: #A5CB88;
 }
 
 a:visited {
-	color: purple;
+	color: #304EFF;
 }
 
 a:hover, a:focus, a:active {
