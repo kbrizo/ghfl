@@ -40,6 +40,40 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
+/* CSS Grid Layout */
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(12, 1fr)
+}
+
+/* Header and Nav */
+
+.header{
+    border-bottom: 1px solid #0E2E66;
+    padding: 20px 0;
+    grid-column: 1 / -1;
+}
+
+/*Top of the Homepage*/
+
+.home{
+    background-color: #0E2E66;
+    grid-column: 1 / -1;
+    grid-row: 550px;
+}
+
+/* Content */
+
+.bloghome {
+    grid-column: span 3 / 
+}
+
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
