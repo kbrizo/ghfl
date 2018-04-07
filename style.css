@@ -46,42 +46,57 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* CSS Grid Layout */
 
 .container{
+    display: grid;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
-    display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(12, 1fr)
 }
 
 /* Header and Nav */
 
-.header{
+.header {
     border-bottom: 1px solid #0E2E66;
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 25px;
     grid-column: 1 / -1;
+    display: inline;
 
 }
 
-li a {
-    text-decoration: none;
+.nav {
+    grid-column: auto / -1;
+}
+
+.header ul {
     text-align: right;
-    grid-column: 4 / auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #0E2E66;
+}
+
+.header li {
+    display: inline;
+}
+
+.header a {
+    text-decoration: none;
+    color: #0E2E66;
 }
 
 
 /*Featured Post*/
 
 .featured{
-    background-color: #0E2E66;
-    grid-column: 1 / -1;
-    grid-row: 550px;
+
 }
 
 /* Content */
 
 .bloghome {
-    grid-column: span 3 / 
+
 }
 
 
