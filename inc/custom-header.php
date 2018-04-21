@@ -18,8 +18,8 @@
  */
 function ghfl_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'ghfl_custom_header_args', array(
-		'default-image'          => '',
-		'default-text-color'     => '000000',
+		'default-image'          => 'image/Title.png',
+		'default-text-color'     => '404040',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
