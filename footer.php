@@ -15,16 +15,14 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'ghfl' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'ghfl' ), 'WordPress' );
+				printf( esc_html__( 'Copyright 2018. All Rights Reserved.',);
 				?>
-			</a>
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'ghfl' ), 'ghfl', '<a href="https://gohardfitnesslab.com">Joseph P. Gordon</a>' );
+				printf( esc_html__( 'Theme by', '<a href="https://brizofalltrades.com"> Briz of All Trades</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
