@@ -22,25 +22,18 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div class="container">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'ghfl' ); ?></a>
-
-	<header>
+	<div class="container">
 		<div class="header">
 			        <img src="http://localhost/wp-content/uploads/2018/04/Title-1.png" class="navimage_desktop">
         <img src="http://localhost/wp-content/uploads/2018/04/title_m.png" class="navimage_mobile">
-
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'ghfl' ); ?></button>
 			<?php
 			wp_nav_menu( array(
 				'theme_location' => 'menu-1',
 				'menu_id'        => 'primary-menu',
 			) );
 			?>
-		</nav><!-- #site-navigation -->
         </div><!-- header class -->
-	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+
+

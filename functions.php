@@ -159,3 +159,83 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_featured-posts',
+		'title' => 'Featured Posts',
+		'fields' => array (
+			array (
+				'key' => 'field_5ae52615133cc',
+				'label' => 'Featured Post',
+				'name' => 'featured_post',
+				'type' => 'true_false',
+				'message' => '',
+				'default_value' => 0,
+			),
+			array (
+				'key' => 'field_5ae52637133cd',
+				'label' => 'Homepage Image',
+				'name' => 'homepage_image',
+				'type' => 'image',
+				'save_format' => 'url',
+				'preview_size' => 'full',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_5ae52659133ce',
+				'label' => 'Homepage Title',
+				'name' => 'homepage_title',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5ae52671133cf',
+				'label' => 'Homepage Description',
+				'name' => 'homepage_description',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5ae5267d133d0',
+				'label' => 'Homepage Button',
+				'name' => 'homepage_button',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'post',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}

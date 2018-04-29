@@ -15,16 +15,11 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Copyright 2018. All Rights Reserved.',);
-				?>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme by', '<a href="https://brizofalltrades.com"> Briz of All Trades</a>' );
-				?>
+				Copyright 2018. All Rights Reserved
 		</div><!-- .site-info -->
+        <div class="boat">
+            <a href="https://brizofalltrades.com">Created by: Brizo Of All Trades</a>
+        </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
