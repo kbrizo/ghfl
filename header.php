@@ -25,14 +25,16 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'ghfl' ); ?></a>
 	<div class="container">
 		<div class="header">
-			        <img src="http://localhost/wp-content/uploads/2018/04/Title-1.png" class="navimage_desktop">
-        <img src="http://localhost/wp-content/uploads/2018/04/title_m.png" class="navimage_mobile">
-			<?php
+			 <img src="http://localhost/wp-content/uploads/2018/04/Title-1.png" class="navimage_desktop">
+            <img src="http://localhost/wp-content/uploads/2018/04/title_m.png" class="navimage_mobile">
+            <nav>
+            <?php
 			wp_nav_menu( array(
 				'theme_location' => 'menu-1',
 				'menu_id'        => 'primary-menu',
 			) );
 			?>
+            </nav>
         </div><!-- header class -->
 
 
