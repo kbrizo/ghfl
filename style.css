@@ -237,17 +237,13 @@ repeat(auto-fit, minmax(250px, 1fr));
 }
 
 /* Contact Form */
-.mc_embed_signup {
-    grid-column: 1 / -1;
-    background-color: #0E2E66;
-    grid-row-start: 15;
+#mc-embedded-subscribe {
+    padding-left: 100px;
 }
 
-.mc_embed_signup h1 {
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: #A5CB88;
-    padding-left: 50px;
+.clear {
+    padding-left: 200px;
+    padding-top: -50px;
 }
 
 /* Footer */
