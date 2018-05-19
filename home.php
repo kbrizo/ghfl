@@ -103,7 +103,7 @@ foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 wp_reset_postdata();?>
         </div>
 
-<div class="events">
+<!--<div class="events">
     <h1>Upcoming Events</h1>
     <h2>April 20, 2018</h2>
     <p><a href=>Marathon Training Fun Run</a> - Central Park, NY @ 4:00pm</p>
@@ -111,6 +111,10 @@ wp_reset_postdata();?>
     <p><a href=>Marathon Training Fun Run</a> - Central Park, NY @ 4:00pm</p>
         <h2>April 20, 2018</h2>
     <p><a href=>Marathon Training Fun Run</a> - Central Park, NY @ 4:00pm</p>
-    </div>
+    </div>-->
+
+<div class="contact">
+
+</div>
 
 <?php get_footer(); ?>

@@ -43,6 +43,13 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* Font */
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
 
+/* Colors
+
+Dark blue:  #0E2E66
+Light blue: #304EFF
+Green: #A5CB88
+*/
+
 /* CSS Grid Layout 
 repeat(auto-fit, minmax(250px, 1fr));
 */
@@ -62,10 +69,12 @@ repeat(auto-fit, minmax(250px, 1fr));
 
 .header {
     border-bottom: 1px solid #0E2E66;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 5px;
     grid-column: 1 / -1;
-    grid-row: 1
+    grid-row: 1;
+    position: fixed;
+    background-color: white;
 }
 
 .header a {
@@ -76,20 +85,6 @@ repeat(auto-fit, minmax(250px, 1fr));
     text-decoration: none;
 }
 
-.header ul {
-    list-style-type: none;
-    display: inline-flex;
-    float: right;
-    
-}
-
-.header li {
-    
-}
-
-.header nav {
-    grid-row-start: 1;
-}
 
 .navimage_desktop{
     display: inline-block;
@@ -99,6 +94,9 @@ repeat(auto-fit, minmax(250px, 1fr));
     display: none;
 }
 
+#responsive-menu-button {
+        padding-top: 50px;
+    }
 
 /*Featured Post*/
 
@@ -119,7 +117,7 @@ repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .featured_text p {
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 .featured_text h1 {
@@ -237,6 +235,9 @@ repeat(auto-fit, minmax(250px, 1fr));
     font-size: 1rem;
 }
 
+/* Contact Form */
+
+
 
 /* Mobile Specific */
 @media (max-width: 700px){
@@ -312,6 +313,11 @@ repeat(auto-fit, minmax(250px, 1fr));
         font-size: .75rem;
     }
     
+    #responsive-menu-button {
+        padding-top: 5px;
+        right: 5%;
+    }
+
 }
 
 
