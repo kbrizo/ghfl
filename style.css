@@ -253,6 +253,8 @@ repeat(auto-fit, minmax(250px, 1fr));
 #mc-embedded-subscribe-form {
     grid-row: 16;
     grid-column: 4 / -1;
+    padding-left: 150px;
+    padding-bottom: 40px;
 }
 
 .clear {
