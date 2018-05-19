@@ -89,6 +89,7 @@ repeat(auto-fit, minmax(250px, 1fr));
 
 .navimage_desktop{
     display: inline-block;
+    max-width: 80%;
 }
 
 .navimage_mobile {
@@ -162,6 +163,7 @@ repeat(auto-fit, minmax(250px, 1fr));
     padding-right: 20px;
     padding-bottom: 20px;
     align-content: center;
+    text-align: center;
 }
 
 .blog_recent1 a {
@@ -176,6 +178,8 @@ repeat(auto-fit, minmax(250px, 1fr));
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    align-content: center;
+    text-align: center;
 }
 
 .blog_recent2 a {
@@ -190,6 +194,8 @@ repeat(auto-fit, minmax(250px, 1fr));
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    align-content: center;
+    text-align: center;
 }
 
 .blog_recent4 {
@@ -199,6 +205,8 @@ repeat(auto-fit, minmax(250px, 1fr));
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    align-content: center;
+    text-align: center;
 }
 
 .blog_date {
@@ -239,7 +247,7 @@ repeat(auto-fit, minmax(250px, 1fr));
 
 /* Contact Form */
 #mc-embedded-subscribe {
-
+    width: 100%;
 }
 
 .clear {

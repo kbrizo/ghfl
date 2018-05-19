@@ -106,6 +106,7 @@ wp_reset_postdata();?>
 <div class="events">
 <!--<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">-->
 <h1>Sign Up for Updates from The Lab</h1>
+
 <form action="https://brizofalltrades.us18.list-manage.com/subscribe/post?u=e04195f323346e4c0f2b4791a&amp;id=748982ef44" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 	<p><input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter Your Email Address" required></p>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
