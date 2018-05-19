@@ -16,9 +16,7 @@
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 				Copyright 2018. All Rights Reserved
-		</div><!-- .site-info -->
-        <div class="boat">
-            <a href="https://brizofalltrades.com">Created by: Brizo Of All Trades</a>
+            <a href="http://www.brizofalltrades.com">Created by BoAT</a>
         </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
